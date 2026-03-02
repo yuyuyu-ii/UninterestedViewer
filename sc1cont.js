@@ -32,6 +32,6 @@ function showArt() {
     imgInit = sets[int(random(0,2))];
     stop = true;
   }
-  image(imgInit.art,windowWidth/2,windowHeight/2, windowWidth*0.7, windowHeight*0.7);
+  image(imgInit.art,windowWidth/2,windowHeight/2, windowWidth*0.7);
   
 }
